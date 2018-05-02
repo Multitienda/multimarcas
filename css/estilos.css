@@ -1,0 +1,45 @@
+body{
+	color:white;
+	background: url('../img/bg.jpg') no-repeat black;
+}
+header{
+	height: 200px;
+}
+nav a{
+	background: orange;
+	padding: 5px;
+	color: white;
+	text-decoration: none;
+	display: block;
+}
+nav a:hover{
+	background: gray;
+}
+nav li{
+	display: inline-block;
+	width: 100px;
+}
+span{
+	background: orange;
+	padding: 5px;
+}
+nav{
+	text-align: center;
+}
+#contenido article{
+	width: 45%;
+	float: left;
+	margin: 1%;
+	/*border: 1px solid white;*/
+	padding: 1%;
+}
+article img {
+  float: left;
+  border: left;
+  margin: 15px;
+}
+aside{
+	clear: both;
+}
+/*esto es un comentario*/
+
